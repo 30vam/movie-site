@@ -1,7 +1,35 @@
-
+/*Bootstrap Variables*/
+$primary: #292F39;
+$light: #D0CFCE;
+$dark: #181A20;
+/*My Variables*/
+$button-hover-color: #F6CA18;
+$button-border-hover-color: #F6CA18;
+$nav-font-color: #D0CFCE;
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
+/*General*/
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.btn {
+    font-weight: 100;
+    transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: $button-hover-color;
+    border-color: $button-border-hover-color;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* Have to say it again because of bootstrap overriding it from reset file*/
+}
+
+/*Header & navbar*/
 header {
     background:  linear-gradient(0deg, rgba(24,26,32,1) 0%, rgba(94,111,76,1) 100%);
 }
@@ -14,29 +42,22 @@ header {
     font-weight: 400;
 }
 
-.btn {
-    font-weight: 100;
-    transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+/* .navbar .btn {
+    background-color: $nav-font-color;
+    border-color: $nav-font-color;
 }
 
-.btn:hover {
-    background-color: #F6CA18;
-    border-color: #F6CA18;
-}
-
-a {
-    color: black;
-    text-decoration: none; /* Have to say it again because of bootstrap overriding it from reset file*/
-}
+.navbar .btn:hover {
+    background-color: $button-hover-color;
+    border-color: $button-border-hover-color;
+} */
 
 #topnavbar-left-mobile svg {
-    color: white
+    color: $nav-font-color;
 }
 
-body {
-    font-family: "Rubik", sans-serif;
-}
-
+/*Main (middle) body content*/
 main {
     background: rgba(24,26,32,1)  ;
 } 
+
