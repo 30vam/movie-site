@@ -19,7 +19,7 @@
 
 <body class="text-light">
     <header>
-        <nav id="top-navbar" class="navbar navbar-dark navbar-expand-md  m-0 p-0">
+        <nav id="top-navbar" class="navbar navbar-dark navbar-expand-lg  m-0 p-0">
             <div class="container-fluid my-2">
                 <!--Navbar logo and toggler button-->
                 <div id="topnavbar-right">
@@ -33,7 +33,7 @@
                 <div id="topnavbar-menu" class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <!--Movies (Foreign)-->
-                        <li id="movies-dropdown" class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="movies" role="button" data-bs-toggle="dropdown" aria-expanded="false"> فیلم </a>
                             <ul class="dropdown-menu bg-dark">
                                 <li><a class="dropdown-item" href="movies/action"> اکشن </a></li>
@@ -44,9 +44,44 @@
                             </ul>
                         </li>
 
-                        <!--Place Holder-->
+                        <!--Series (Foreign)-->
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="series" role="button" data-bs-toggle="dropdown" aria-expanded="false"> سریال </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="series/action"> اکشن </a></li>
+                            <li><a class="dropdown-item" href="series/drum"> درام </a></li>
+                            <li><a class="dropdown-item" href="series/comedy"> کمدی </a></li>
+                            <li><a class="dropdown-item" href="series/crime"> جنایی </a></li>
+                            <li><a class="dropdown-item" href="series/thriller"> هیجان‌انگیز </a></li>
+                        </ul>
+                        </li>
+
+                        <!--Animations-->
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="animations" role="button" data-bs-toggle="dropdown" aria-expanded="false"> انیمیشن </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="animations/anime"> انیمه </a></li>
+                        </ul>
+                        </li>
+
+                        <!--Collections-->
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="collections" role="button" data-bs-toggle="dropdown" aria-expanded="false"> کالکشن </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="collections/top-movies"> ۲۵۰ فیلم برتر </a></li>
+                            <li><a class="dropdown-item" href="collections/top-series"> ۲۵۰ سریال برتر </a></li>
+                        </ul>
+                        </li>
+                    
+                        <!--Persian Items-->
                         <li class="nav-item">
-                            <a href="" aria-current="page" class="nav-link"> تست </a>
+                            <a href="persian-dubbed" aria-current="page" class="nav-link"> دوبله فارسی </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="persian-movies" aria-current="page" class="nav-link"> فیلم ایرانی </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="persian-series" aria-current="page" class="nav-link"> سریال ایرانی </a>
                         </li>
                     </ul>
                 </div>

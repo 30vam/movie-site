@@ -59,14 +59,23 @@ header {
     width: 90%; /* Gives space to left and right of the item so it has space when hovered*/
     border-radius: $common-border-radius;
     margin: 0.25em 0.5em;
-    transition: background-color $transition-speed ease-in-out, border-color $transition-speed ease-in-out, color $transition-speed ease-in-out;
+    transition: background-color $transition-speed ease-in-out, color $transition-speed ease-in-out;
 }
 
 .dropdown-item:hover {
     background-color: $secondary;
 }
 
-#movies-dropdown:hover .dropdown-menu {
+#topnavbar-menu .nav-link {
+    transition: color $transition-speed ease-in-out;
+}
+
+#topnavbar-menu .nav-link:hover {
+    color: $secondary;
+    
+}
+
+#topnavbar-menu .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; /* remove the gap so it doesn't close */
 }
