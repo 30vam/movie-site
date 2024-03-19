@@ -1,11 +1,12 @@
 /*Bootstrap Variables*/
 $primary: #292F39;
+$secondary: #F6CA18;
 $light: #D0CFCE;
 $dark: #181A20;
 /*My Variables*/
-$button-hover-color: #F6CA18;
-$button-border-hover-color: #F6CA18;
-$nav-font-color: #D0CFCE;
+$transition-speed: 0.4s;
+$button-font-weight: 200;
+$navbar-brand-font-weight: 400;
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
@@ -15,13 +16,13 @@ body {
 }
 
 .btn {
-    font-weight: 100;
-    transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    font-weight: $button-font-weight;
+    transition: background-color $transition-speed ease-in-out, border-color $transition-speed ease-in-out, color $transition-speed ease-in-out;
 }
 
 .btn:hover {
-    background-color: $button-hover-color;
-    border-color: $button-border-hover-color;
+    background-color: $secondary;
+    border-color: $secondary;
 }
 
 a {
@@ -39,25 +40,13 @@ header {
 }
 
 .navbar-brand {
-    font-weight: 400;
+    font-weight: $navbar-brand-font-weight;
 }
-
-/* .navbar .btn {
-    background-color: $nav-font-color;
-    border-color: $nav-font-color;
-}
-
-.navbar .btn:hover {
-    background-color: $button-hover-color;
-    border-color: $button-border-hover-color;
-} */
 
 #topnavbar-left-mobile svg {
-    color: $nav-font-color;
+    color: $light;
 }
 
 /*Main (middle) body content*/
-main {
-    background: rgba(24,26,32,1)  ;
-} 
+
 
