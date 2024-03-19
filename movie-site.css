@@ -1,0 +1,55 @@
+header { /* ADD CSS RESET FILE */
+    background: linear-gradient(180deg, hsla(203, 22%, 41%, 1) 32%, hsla(247, 34%, 20%, 1) 100%);;
+}
+
+#top-navbar {
+    background-image: linear-gradient(0deg, rgba(255,0,0,0), rgba(0,0,0,0.75));
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:active {
+    outline: none;
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: 400;
+}
+
+.btn {
+    font-weight: 100;
+    transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+a {
+    /*Add in css reset later*/
+    color: black;
+    text-decoration: none;
+}
+
+#topnavbar-left-mobile svg {
+    color: white
+}
+
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-weight: 00;
+}
+
+main {
+    background: hsla(247, 34%, 20%, 1) ;
+} 
