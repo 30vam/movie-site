@@ -5,6 +5,7 @@ $light: #D0CFCE;
 $dark: #181A20;
 /*My Variables*/
 $transition-speed: 0.4s;
+$common-border-radius: 0.5em;
 $button-font-weight: 200;
 $navbar-brand-font-weight: 400;
 
@@ -16,6 +17,7 @@ body {
 }
 
 .btn {
+    border-radius: $common-border-radius;
     font-weight: $button-font-weight;
     transition: background-color $transition-speed ease-in-out, border-color $transition-speed ease-in-out, color $transition-speed ease-in-out;
 }
@@ -32,7 +34,7 @@ a {
 
 /*Header & navbar*/
 header {
-    background:  linear-gradient(0deg, rgba(24,26,32,1) 0%, rgba(94,111,76,1) 100%);
+    background: linear-gradient(0deg, rgba(24,26,32,1) 0%, rgba(94,111,76,1) 100%);
 }
 
 #top-navbar {
@@ -41,6 +43,27 @@ header {
 
 .navbar-brand {
     font-weight: $navbar-brand-font-weight;
+}
+
+.nav-link {
+    color: $light;
+}
+
+.dropdown-menu {
+    border-radius: 1em;
+}
+
+.dropdown-item {
+    color: $light;
+    text-align: start;
+    width: 90%; /* Gives space to left and right of the item so it has space when hovered*/
+    border-radius: $common-border-radius;
+    margin: 0.25em 0.5em;
+    transition: background-color $transition-speed ease-in-out, border-color $transition-speed ease-in-out, color $transition-speed ease-in-out;
+}
+
+.dropdown-item:hover {
+    background-color: $secondary;
 }
 
 #movies-dropdown:hover .dropdown-menu {
