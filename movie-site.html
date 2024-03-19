@@ -6,15 +6,18 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css-reset.css">
     <link rel="stylesheet" href="movie-site.css">
 
+    <!--Includes ALL bootstrap js file even popperJS-->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>Sina Movies</title>
 </head>
 
-<body class="text-light text-light">
+<body class="text-light">
     <header>
         <nav id="top-navbar" class="navbar navbar-dark navbar-expand-md  m-0 p-0">
             <div class="container-fluid my-2">
@@ -23,13 +26,28 @@
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#topnavbar-menu" aria-controls="topnavbar-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a href="" class="navbar-brand m-1 text-light">سینا موویز</a>
+                    <a href="" class="navbar-brand ms-4 text-light">سینا موویز</a>
                 </div>
                 
                 <!--Navbar categories-->
-                <ul id="topnavbar-menu" class="collapse navbar-collapse text-light">
+                <div id="topnavbar-menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <!--Movies (Foreign)-->
+                        <li id="movies-dropdown" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> فیلم </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-                </ul>
+                        <!--Place Holder-->
+                        <li class="nav-item">
+                            <a href="" aria-current="page" class="nav-link"> تست </a>
+                        </li>
+                    </ul>
+                </div>
 
                 <!--Desktop Only-->
                 <div id="topnavbar-left" class="d-none d-sm-block">
@@ -74,8 +92,8 @@
 
     </footer>
 
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    
+    <!-- <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script> -->
+
 </body>
 </body>
 </html>
