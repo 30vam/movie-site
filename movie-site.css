@@ -12049,6 +12049,10 @@ header {
 }
 
 /*Scrollable movie list*/
+.horizontal-scrollable {
+  overflow: hidden; /*REMOVE THE SCROLL BAR ON DESKTOP*/
+}
+
 .card {
   background: none;
   width: 12em;
@@ -12080,4 +12084,14 @@ header {
   border-radius: 1em;
 }
 
-/*Main (middle) body content*//*# sourceMappingURL=movie-site.css.map */
+/*Main (middle) body content*/
+main {
+  background: rgb(24, 26, 32);
+}
+
+/*Media Queries*/
+@media (max-width: 991.98px) {
+  .horizontal-scrollable {
+    overflow: auto;
+  }
+}/*# sourceMappingURL=movie-site.css.map */

@@ -97,6 +97,10 @@ header {
 }
 
 /*Scrollable movie list*/
+.horizontal-scrollable { 
+    overflow: hidden; /*REMOVE THE SCROLL BAR ON DESKTOP*/
+}
+
 .card {
     background: none;
     width: 12em;
@@ -135,5 +139,14 @@ header {
 }
 
 /*Main (middle) body content*/
+main {
+    background: rgba(24,26,32,1);
+}
 
+/*Media Queries*/
+@media (max-width: 991.98px) { 
+    .horizontal-scrollable {
+        overflow: auto;
+    }
+}
 
