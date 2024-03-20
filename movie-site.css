@@ -11983,6 +11983,15 @@ body {
   border-color: #F6CA18;
 }
 
+.btn-primary {
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+}
+
+.btn-primary:hover {
+  color: black;
+}
+
 a {
   color: black;
   text-decoration: none; /* Have to say it again because of bootstrap overriding it from reset file*/
@@ -12039,4 +12048,6 @@ header {
   color: #D0CFCE;
 }
 
+/*Scrollable movie list*/
+/*Change btn-primary radius and color on hover*/
 /*Main (middle) body content*//*# sourceMappingURL=movie-site.css.map */

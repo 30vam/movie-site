@@ -6,8 +6,10 @@ $dark: #181A20;
 /*My Variables*/
 $transition-speed: 0.4s;
 $common-border-radius: 0.5em;
+$big-border-radius: 1.0em;
 $button-font-weight: 200;
 $navbar-brand-font-weight: 400;
+$section-margin: 2em;
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
@@ -25,6 +27,15 @@ body {
 .btn:hover {
     background-color: $secondary;
     border-color: $secondary;
+}
+
+.btn-primary {
+    border-radius: $big-border-radius;
+    padding: 0.5em 1.5em;
+}
+
+.btn-primary:hover {
+    color: black;
 }
 
 a {
@@ -82,6 +93,9 @@ header {
 #topnavbar-left-mobile svg {
     color: $light;
 }
+
+/*Scrollable movie list*/
+/*Change btn-primary radius and color on hover*/
 
 /*Main (middle) body content*/
 
