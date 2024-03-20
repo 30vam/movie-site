@@ -18,6 +18,7 @@ $card-border-color-hover: #f6ca1886;
 /*General*/
 body {
     font-family: "Vazirmatn", sans-serif;
+    height: 0; /*For some reason there is whitespace at the end of the page without this*/
 }
 
 .btn {

@@ -11970,6 +11970,7 @@ textarea.form-control-lg {
 /*General*/
 body {
   font-family: "Vazirmatn", sans-serif;
+  height: 0; /*For some reason there is whitespace at the end of the page without this*/
 }
 
 .btn {

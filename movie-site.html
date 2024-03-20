@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="fa-IR" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css-reset.css">
     <link rel="stylesheet" href="movie-site.css">
@@ -23,18 +26,21 @@
             <div class="container-fluid my-2">
                 <!--Navbar logo and toggler button-->
                 <div id="topnavbar-right">
-                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#topnavbar-menu" aria-controls="topnavbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#topnavbar-menu" aria-controls="topnavbar-menu" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <a href="" class="navbar-brand ms-4 text-light">سینا موویز</a>
                 </div>
-                
+
                 <!--Navbar categories-->
                 <div id="topnavbar-menu" class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <!--Movies (Foreign)-->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="movies" role="button" data-bs-toggle="dropdown" aria-expanded="false"> فیلم </a>
+                            <a class="nav-link dropdown-toggle" href="movies" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> فیلم </a>
                             <ul class="dropdown-menu bg-dark">
                                 <li><a class="dropdown-item" href="movies/action"> اکشن </a></li>
                                 <li><a class="dropdown-item" href="movies/drum"> درام </a></li>
@@ -46,33 +52,36 @@
 
                         <!--Series (Foreign)-->
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="series" role="button" data-bs-toggle="dropdown" aria-expanded="false"> سریال </a>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item" href="series/action"> اکشن </a></li>
-                            <li><a class="dropdown-item" href="series/drum"> درام </a></li>
-                            <li><a class="dropdown-item" href="series/comedy"> کمدی </a></li>
-                            <li><a class="dropdown-item" href="series/crime"> جنایی </a></li>
-                            <li><a class="dropdown-item" href="series/thriller"> هیجان‌انگیز </a></li>
-                        </ul>
+                            <a class="nav-link dropdown-toggle" href="series" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> سریال </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="series/action"> اکشن </a></li>
+                                <li><a class="dropdown-item" href="series/drum"> درام </a></li>
+                                <li><a class="dropdown-item" href="series/comedy"> کمدی </a></li>
+                                <li><a class="dropdown-item" href="series/crime"> جنایی </a></li>
+                                <li><a class="dropdown-item" href="series/thriller"> هیجان‌انگیز </a></li>
+                            </ul>
                         </li>
 
                         <!--Animations-->
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="animations" role="button" data-bs-toggle="dropdown" aria-expanded="false"> انیمیشن </a>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item" href="animations/anime"> انیمه </a></li>
-                        </ul>
+                            <a class="nav-link dropdown-toggle" href="animations" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"> انیمیشن </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="animations/anime"> انیمه </a></li>
+                            </ul>
                         </li>
 
                         <!--Collections-->
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="collections" role="button" data-bs-toggle="dropdown" aria-expanded="false"> کالکشن </a>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item" href="collections/top-movies"> ۲۵۰ فیلم برتر </a></li>
-                            <li><a class="dropdown-item" href="collections/top-series"> ۲۵۰ سریال برتر </a></li>
-                        </ul>
+                            <a class="nav-link dropdown-toggle" href="collections" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"> کالکشن </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="collections/top-movies"> ۲۵۰ فیلم برتر </a></li>
+                                <li><a class="dropdown-item" href="collections/top-series"> ۲۵۰ سریال برتر </a></li>
+                            </ul>
                         </li>
-                    
+
                         <!--Persian Items-->
                         <li class="nav-item">
                             <a href="persian-dubbed" aria-current="page" class="nav-link"> دوبله فارسی </a>
@@ -89,31 +98,43 @@
                 <!--Desktop Only-->
                 <div id="topnavbar-left" class="d-none d-sm-block">
                     <button class="btn btn-light ms-2">
-                        <a href="search"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">
-                            <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
+                        <a href="search"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                viewBox="0 0 50 50">
+                                <path
+                                    d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z">
+                                </path>
                             </svg> جستجو
-                            </a>
+                        </a>
                     </button>
 
                     <button class="btn btn-light">
                         <a href="login">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0 0 448 512" class="header__actions__item--icon">
-                            <path d="M313.6 288c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zM416 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16v-41.6C32 365.9 77.9 320 134.4 320c19.6 0 39.1 16 89.6 16 50.4 0 70-16 89.6-16 56.5 0 102.4 45.9 102.4 102.4V464zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm0-224c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path>
-                        </svg> ورود
-                    </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18"
+                                viewBox="0 0 448 512" class="header__actions__item--icon">
+                                <path
+                                    d="M313.6 288c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zM416 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16v-41.6C32 365.9 77.9 320 134.4 320c19.6 0 39.1 16 89.6 16 50.4 0 70-16 89.6-16 56.5 0 102.4 45.9 102.4 102.4V464zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm0-224c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z">
+                                </path>
+                            </svg> ورود
+                        </a>
                     </button>
                 </div>
 
                 <!--Mobile Only-->
                 <div id="topnavbar-left-mobile" class="d-sm-none">
-                    <a href="search" class="text-light"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50">
-                        <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z" fill="currentColor"></path>
+                    <a href="search" class="text-light"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="40" height="40" viewBox="0 0 50 50">
+                            <path
+                                d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                                fill="currentColor"></path>
                         </svg>
                     </a>
-                    
+
                     <a href="login" class="text-light">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 448 512">
-                            <path d="M313.6 288c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zM416 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16v-41.6C32 365.9 77.9 320 134.4 320c19.6 0 39.1 16 89.6 16 50.4 0 70-16 89.6-16 56.5 0 102.4 45.9 102.4 102.4V464zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm0-224c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z" fill="currentColor"></path>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M313.6 288c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zM416 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16v-41.6C32 365.9 77.9 320 134.4 320c19.6 0 39.1 16 89.6 16 50.4 0 70-16 89.6-16 56.5 0 102.4 45.9 102.4 102.4V464zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm0-224c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"
+                                fill="currentColor"></path>
                         </svg>
                     </a>
                 </div>
@@ -133,113 +154,128 @@
             <div class="horizontal-scrollable row mt-3 mt-lg-0 flex-nowrap m-1">
                 <!--Trending movie cards are here-->
                 <a href="movies/poor-things" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/cj4kjwws/poor-things-new-zealand-movie-poster.jpg?v=1709479716" class="card-img-top" alt="Poor Things cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/cj4kjwws/poor-things-new-zealand-movie-poster.jpg?v=1709479716"
+                        class="card-img-top" alt="Poor Things cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Poor Things (2023) </h5>
                         <p class="card-text m-0"> IMDB: 8.0 </p>
                     </div>
                 </a>
                 <a href="movies/dune" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/iapzbg1m/dune-movie-poster.jpg?v=1630953155" class="card-img-top" alt="Dune cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/iapzbg1m/dune-movie-poster.jpg?v=1630953155"
+                        class="card-img-top" alt="Dune cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Dune (2021) </h5>
                         <p class="card-text m-0"> IMDB: 8.0 </p>
                     </div>
                 </a>
                 <a href="movies/damsel" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/xwpjmlhg/damsel-movie-poster.jpg?v=1706814681" class="card-img-top" alt="Damsel cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/xwpjmlhg/damsel-movie-poster.jpg?v=1706814681"
+                        class="card-img-top" alt="Damsel cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Damsel (2024) </h5>
                         <p class="card-text m-0"> IMDB: 6.1 </p>
                     </div>
                 </a>
                 <a href="movies/oppenheimer" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/2afqhdxx/oppenheimer-movie-poster.jpg?v=1683305737" class="card-img-top" alt="Oppenheimer cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/2afqhdxx/oppenheimer-movie-poster.jpg?v=1683305737"
+                        class="card-img-top" alt="Oppenheimer cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Oppenheimer (2023) </h5>
                         <p class="card-text m-0"> IMDB: 8.3 </p>
                     </div>
                 </a>
                 <a href="movies/the-zone-of-interest" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/vv7d0dbm/the-zone-of-interest-movie-poster.jpg?v=1697565917" class="card-img-top" alt="The Zone of Interest cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/vv7d0dbm/the-zone-of-interest-movie-poster.jpg?v=1697565917"
+                        class="card-img-top" alt="The Zone of Interest cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> The Zone of Interest (2023) </h5>
                         <p class="card-text m-0"> IMDB: 7.5 </p>
                     </div>
                 </a>
                 <a href="movies/poor-things" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/cj4kjwws/poor-things-new-zealand-movie-poster.jpg?v=1709479716" class="card-img-top" alt="Poor Things cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/cj4kjwws/poor-things-new-zealand-movie-poster.jpg?v=1709479716"
+                        class="card-img-top" alt="Poor Things cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Poor Things (2023) </h5>
                         <p class="card-text m-0"> IMDB: 8.0 </p>
                     </div>
                 </a>
                 <a href="movies/dune" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/iapzbg1m/dune-movie-poster.jpg?v=1630953155" class="card-img-top" alt="Dune cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/iapzbg1m/dune-movie-poster.jpg?v=1630953155"
+                        class="card-img-top" alt="Dune cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Dune (2021) </h5>
                         <p class="card-text m-0"> IMDB: 8.0 </p>
                     </div>
                 </a>
                 <a href="movies/damsel" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/xwpjmlhg/damsel-movie-poster.jpg?v=1706814681" class="card-img-top" alt="Damsel cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/xwpjmlhg/damsel-movie-poster.jpg?v=1706814681"
+                        class="card-img-top" alt="Damsel cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Damsel (2024) </h5>
                         <p class="card-text m-0"> IMDB: 6.1 </p>
                     </div>
                 </a>
                 <a href="movies/oppenheimer" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/2afqhdxx/oppenheimer-movie-poster.jpg?v=1683305737" class="card-img-top" alt="Oppenheimer cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/2afqhdxx/oppenheimer-movie-poster.jpg?v=1683305737"
+                        class="card-img-top" alt="Oppenheimer cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Oppenheimer (2023) </h5>
                         <p class="card-text m-0"> IMDB: 8.3 </p>
                     </div>
                 </a>
                 <a href="movies/the-zone-of-interest" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/vv7d0dbm/the-zone-of-interest-movie-poster.jpg?v=1697565917" class="card-img-top" alt="The Zone of Interest cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/vv7d0dbm/the-zone-of-interest-movie-poster.jpg?v=1697565917"
+                        class="card-img-top" alt="The Zone of Interest cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> The Zone of Interest (2023) </h5>
                         <p class="card-text m-0"> IMDB: 7.5 </p>
                     </div>
                 </a>
                 <a href="movies/poor-things" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/cj4kjwws/poor-things-new-zealand-movie-poster.jpg?v=1709479716" class="card-img-top" alt="Poor Things cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/cj4kjwws/poor-things-new-zealand-movie-poster.jpg?v=1709479716"
+                        class="card-img-top" alt="Poor Things cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Poor Things (2023) </h5>
                         <p class="card-text m-0"> IMDB: 8.0 </p>
                     </div>
                 </a>
                 <a href="movies/dune" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/iapzbg1m/dune-movie-poster.jpg?v=1630953155" class="card-img-top" alt="Dune cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/iapzbg1m/dune-movie-poster.jpg?v=1630953155"
+                        class="card-img-top" alt="Dune cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Dune (2021) </h5>
                         <p class="card-text m-0"> IMDB: 8.0 </p>
                     </div>
                 </a>
                 <a href="movies/damsel" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/xwpjmlhg/damsel-movie-poster.jpg?v=1706814681" class="card-img-top" alt="Damsel cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/xwpjmlhg/damsel-movie-poster.jpg?v=1706814681"
+                        class="card-img-top" alt="Damsel cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Damsel (2024) </h5>
                         <p class="card-text m-0"> IMDB: 6.1 </p>
                     </div>
                 </a>
                 <a href="movies/oppenheimer" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/2afqhdxx/oppenheimer-movie-poster.jpg?v=1683305737" class="card-img-top" alt="Oppenheimer cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/2afqhdxx/oppenheimer-movie-poster.jpg?v=1683305737"
+                        class="card-img-top" alt="Oppenheimer cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Oppenheimer (2023) </h5>
                         <p class="card-text m-0"> IMDB: 8.3 </p>
                     </div>
                 </a>
                 <a href="movies/the-zone-of-interest" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/vv7d0dbm/the-zone-of-interest-movie-poster.jpg?v=1697565917" class="card-img-top" alt="The Zone of Interest cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/vv7d0dbm/the-zone-of-interest-movie-poster.jpg?v=1697565917"
+                        class="card-img-top" alt="The Zone of Interest cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> The Zone of Interest (2023) </h5>
                         <p class="card-text m-0"> IMDB: 7.5 </p>
                     </div>
                 </a>
-          
+
             </div>
-          </section>
+        </section>
 
         <!--Trending Series-->
         <section class="container-fluid mt-5 mb-5">
@@ -254,120 +290,136 @@
             <div class="horizontal-scrollable row mt-3 mt-lg-0 flex-nowrap m-1">
                 <!--Trending series cards are here-->
                 <a href="series/the-gentlemen" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/38aziq4l/the-gentlemen-movie-poster.jpg?v=1709794776" class="card-img-top" alt="The Gentlemen cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/38aziq4l/the-gentlemen-movie-poster.jpg?v=1709794776"
+                        class="card-img-top" alt="The Gentlemen cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> The Gentlemen (2024) </h5>
                         <p class="card-text m-0"> IMDB: 8.3 </p>
                     </div>
                 </a>
                 <a href="series/Shogun" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/0m1afvef/shogun-movie-poster.jpg?v=1691221394" class="card-img-top" alt="Shogun cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/0m1afvef/shogun-movie-poster.jpg?v=1691221394"
+                        class="card-img-top" alt="Shogun cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Shogun (2024) </h5>
                         <p class="card-text m-0"> IMDB: 9.3 </p>
                     </div>
                 </a>
                 <a href="series/avatar-the-last-air-bender" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/dmu6uk8v/avatar-the-last-airbender-movie-poster.jpg?v=1709621577" class="card-img-top" alt="Avatar: The Last Airbender cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/dmu6uk8v/avatar-the-last-airbender-movie-poster.jpg?v=1709621577"
+                        class="card-img-top" alt="Avatar: The Last Airbender cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Avatar: The Last Airbender (2024) </h5>
                         <p class="card-text m-0"> IMDB: 7.3 </p>
                     </div>
                 </a>
                 <a href="series/fallout" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/pu0vybsm/fallout-movie-poster.jpg?v=1709823468" class="card-img-top" alt="Fallout cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/pu0vybsm/fallout-movie-poster.jpg?v=1709823468"
+                        class="card-img-top" alt="Fallout cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Fallout (2024) </h5>
                         <p class="card-text m-0"> IMDB: N/A </p>
                     </div>
                 </a>
                 <a href="series/true-detective" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/vasi4esw/true-detective-movie-poster.jpg?v=1456484058" class="card-img-top" alt="True Detective cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/vasi4esw/true-detective-movie-poster.jpg?v=1456484058"
+                        class="card-img-top" alt="True Detective cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> True Detective (2014) </h5>
                         <p class="card-text m-0"> IMDB: 8.9 </p>
                     </div>
                 </a>
                 <a href="series/the-gentlemen" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/38aziq4l/the-gentlemen-movie-poster.jpg?v=1709794776" class="card-img-top" alt="The Gentlemen cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/38aziq4l/the-gentlemen-movie-poster.jpg?v=1709794776"
+                        class="card-img-top" alt="The Gentlemen cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> The Gentlemen (2024) </h5>
                         <p class="card-text m-0"> IMDB: 8.3 </p>
                     </div>
                 </a>
                 <a href="series/Shogun" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/0m1afvef/shogun-movie-poster.jpg?v=1691221394" class="card-img-top" alt="Shogun cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/0m1afvef/shogun-movie-poster.jpg?v=1691221394"
+                        class="card-img-top" alt="Shogun cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Shogun (2024) </h5>
                         <p class="card-text m-0"> IMDB: 9.3 </p>
                     </div>
                 </a>
                 <a href="series/avatar-the-last-air-bender" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/dmu6uk8v/avatar-the-last-airbender-movie-poster.jpg?v=1709621577" class="card-img-top" alt="Avatar: The Last Airbender cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/dmu6uk8v/avatar-the-last-airbender-movie-poster.jpg?v=1709621577"
+                        class="card-img-top" alt="Avatar: The Last Airbender cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Avatar: The Last Airbender (2024) </h5>
                         <p class="card-text m-0"> IMDB: 7.3 </p>
                     </div>
                 </a>
                 <a href="series/fallout" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/pu0vybsm/fallout-movie-poster.jpg?v=1709823468" class="card-img-top" alt="Fallout cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/pu0vybsm/fallout-movie-poster.jpg?v=1709823468"
+                        class="card-img-top" alt="Fallout cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Fallout (2024) </h5>
                         <p class="card-text m-0"> IMDB: N/A </p>
                     </div>
                 </a>
                 <a href="series/true-detective" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/vasi4esw/true-detective-movie-poster.jpg?v=1456484058" class="card-img-top" alt="True Detective cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/vasi4esw/true-detective-movie-poster.jpg?v=1456484058"
+                        class="card-img-top" alt="True Detective cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> True Detective (2014) </h5>
                         <p class="card-text m-0"> IMDB: 8.9 </p>
                     </div>
                 </a>
                 <a href="series/the-gentlemen" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/38aziq4l/the-gentlemen-movie-poster.jpg?v=1709794776" class="card-img-top" alt="The Gentlemen cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/38aziq4l/the-gentlemen-movie-poster.jpg?v=1709794776"
+                        class="card-img-top" alt="The Gentlemen cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> The Gentlemen (2024) </h5>
                         <p class="card-text m-0"> IMDB: 8.3 </p>
                     </div>
                 </a>
                 <a href="series/Shogun" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/0m1afvef/shogun-movie-poster.jpg?v=1691221394" class="card-img-top" alt="Shogun cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/0m1afvef/shogun-movie-poster.jpg?v=1691221394"
+                        class="card-img-top" alt="Shogun cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Shogun (2024) </h5>
                         <p class="card-text m-0"> IMDB: 9.3 </p>
                     </div>
                 </a>
                 <a href="series/avatar-the-last-air-bender" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/dmu6uk8v/avatar-the-last-airbender-movie-poster.jpg?v=1709621577" class="card-img-top" alt="Avatar: The Last Airbender cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/dmu6uk8v/avatar-the-last-airbender-movie-poster.jpg?v=1709621577"
+                        class="card-img-top" alt="Avatar: The Last Airbender cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Avatar: The Last Airbender (2024) </h5>
                         <p class="card-text m-0"> IMDB: 7.3 </p>
                     </div>
                 </a>
                 <a href="series/fallout" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/pu0vybsm/fallout-movie-poster.jpg?v=1709823468" class="card-img-top" alt="Fallout cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/pu0vybsm/fallout-movie-poster.jpg?v=1709823468"
+                        class="card-img-top" alt="Fallout cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> Fallout (2024) </h5>
                         <p class="card-text m-0"> IMDB: N/A </p>
                     </div>
                 </a>
                 <a href="series/true-detective" class="card m- p-0 border-0 text-center text-light">
-                    <img src="https://media-cache.cinematerial.com/p/500x/vasi4esw/true-detective-movie-poster.jpg?v=1456484058" class="card-img-top" alt="True Detective cover">
-                    <div class="card-body m-0"> 
+                    <img src="https://media-cache.cinematerial.com/p/500x/vasi4esw/true-detective-movie-poster.jpg?v=1456484058"
+                        class="card-img-top" alt="True Detective cover">
+                    <div class="card-body m-0">
                         <h5 class="card-title m-0"> True Detective (2014) </h5>
                         <p class="card-text m-0"> IMDB: 8.9 </p>
                     </div>
                 </a>
             </div>
-          </section>
+        </section>
     </header>
 
     <main class="container-fluid">
     </main>
-    
+
     <footer>
 
     </footer>
 
 </body>
+
 </html>
