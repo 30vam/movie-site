@@ -12049,5 +12049,27 @@ header {
 }
 
 /*Scrollable movie list*/
-/*Change btn-primary radius and color on hover*/
+.card {
+  background: none;
+  width: 12em;
+}
+
+.card-title {
+  transition: transform 0.5s ease-in-out;
+}
+
+.card:hover .card-title {
+  transition: transform 0.25s ease-in-out;
+  color: #F6CA18;
+  transform: scale(1.2);
+}
+
+.card-title {
+  transition: color 0.25s ease-in-out;
+}
+
+.card-img-top {
+  border-radius: 1em;
+}
+
 /*Main (middle) body content*//*# sourceMappingURL=movie-site.css.map */
