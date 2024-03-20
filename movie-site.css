@@ -12053,22 +12053,30 @@ header {
   background: none;
   width: 12em;
 }
-
-.card-title {
-  transition: transform 0.5s ease-in-out;
+.card:hover .card-img-top {
+  border-color: rgba(246, 202, 24, 0.5254901961);
+  transform: scale(1) translateY(0.4em);
 }
-
 .card:hover .card-title {
-  transition: transform 0.25s ease-in-out;
   color: #F6CA18;
   transform: scale(1.2);
 }
+.card:hover .card-text {
+  color: #F6CA18;
+}
 
 .card-title {
+  transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.card-text {
   transition: color 0.25s ease-in-out;
 }
 
 .card-img-top {
+  border: 4px solid rgba(246, 202, 24, 0);
+  transform: scale(0.95) translateY(0.5em);
+  transition: filter 0.25s ease-in-out, transform 0.25s ease-in-out, border 0.25s ease-in-out;
   border-radius: 1em;
 }
 

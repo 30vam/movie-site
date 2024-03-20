@@ -4,12 +4,14 @@ $secondary: #F6CA18;
 $light: #D0CFCE;
 $dark: #181A20;
 /*My Variables*/
+$transition-fast-spped: 0.25s;
 $transition-speed: 0.4s;
 $common-border-radius: 0.5em;
 $big-border-radius: 1.0em;
 $button-font-weight: 200;
 $navbar-brand-font-weight: 400;
 $section-margin: 2em;
+$card-border-color-hover: #f6ca1886;
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
@@ -98,27 +100,37 @@ header {
 .card {
     background: none;
     width: 12em;
-}
 
-.card-title {
-    transition: transform 0.5s ease-in-out; 
-}
+    &:hover {
 
-.card:hover {
-    .card-title {
-        transition: transform 0.25s ease-in-out;
-        color: $secondary;
-        transform: scale(1.2);
+        .card-img-top {
+            border-color: $card-border-color-hover;
+            transform: scale(1) translateY(0.4em);
+        }
+
+        .card-title {
+            color: $secondary;
+            transform: scale(1.2);
+        }
+
+        .card-text {
+            color: $secondary;
+        }
     }
-
-    
 }
 
 .card-title {
-    transition: color 0.25s ease-in-out;
+    transition: color $transition-fast-spped ease-in-out, transform $transition-fast-spped ease-in-out;
+}
+
+.card-text {
+    transition: color $transition-fast-spped ease-in-out;
 }
 
 .card-img-top {
+    border: 4px solid #f6ca1800;
+    transform: scale(0.95) translateY(0.5em);
+    transition: filter $transition-fast-spped ease-in-out, transform $transition-fast-spped ease-in-out, border $transition-fast-spped ease-in-out;
     border-radius: $big-border-radius;
 }
 
