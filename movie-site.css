@@ -12095,32 +12095,45 @@ main {
   width: 125px !important;
 }
 
+/*The main label*/
 .select2-selection {
   padding-right: 0.5em;
   border-radius: 1em !important;
   background-color: rgba(0, 0, 0, 0.5) !important;
   border: none !important;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.651);
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.651);
 }
 
+/*The text in the label*/
 .select2-selection__rendered {
   color: #D0CFCE !important;
-  overflow: hidden !important;
 }
 
+/*The arrow icon*/
+/*The menu that opens when you click on the label*/
 .select2-dropdown {
+  width: 175px !important;
   padding-right: 0.5em;
-  border-radius: 0 0 1em 1em;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  box-shadow: 0px 4px 10px 2px black;
+  margin-top: 0.5em;
+  border-radius: 1em !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border: none !important;
+  box-shadow: 0px 0px 15px 4px black;
 }
 
+/*Every option in the box should have transparent bg and have white text if not highlighted*/
+.select2-results__option--selectable {
+  color: #D0CFCE;
+  background: none !important;
+}
+
+/*A highlighted option should be yellow*/
 .select2-results__option--highlighted {
   color: #F6CA18 !important;
   background: none !important;
 }
 
+/* <li class="select2-results__option select2-results__option--selectable select2-results__option--selected select2-results__option--highlighted" id="select2-type-dropdown-result-31ia-فیلم" role="option" data-select2-id="select2-data-select2-type-dropdown-result-31ia-فیلم" aria-selected="true"> فیلم </li> */
 /*Media Queries*/
 @media (max-width: 991.98px) {
   .horizontal-scrollable {
