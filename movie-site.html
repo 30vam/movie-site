@@ -11,11 +11,10 @@
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css-reset.css">
-    <link rel="stylesheet" href="movie-site.css">
-
-    <!--Includes ALL bootstrap js file even popperJS-->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!--bootstrap-select-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css-reset.css"> <!--CSS reset file-->
+    <link rel="stylesheet" href="movie-site.css"> <!--Imports Bootstrap and custom CSS-->
 
     <title>Sina Movies</title>
 </head>
@@ -414,12 +413,35 @@
     </header>
 
     <main class="container-fluid">
+        <!--Genre Selectors-->
+        <section class="container-fluid">
+            <div class="row">
+                <select class="selectpicker" aria-label="ٰMedia Type Filter">
+                    <option> فیلم </option>
+                    <option> سریال </option>
+                </select>
+            </div>
+            <div class="row">
+                asdasdasdasdas
+                asdas
+            </div>
+        </section>
     </main>
 
     <footer>
 
     </footer>
 
+    <!--Bootstrap, JQuery and PopperJS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <!--Bootstrap select cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/i18n/defaults-*.min.js"></script>
+    <script>
+      $('.selectpicker').selectpicker();
+    </script>
 </body>
 
 </html>
