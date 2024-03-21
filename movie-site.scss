@@ -67,7 +67,7 @@ a {
 
 /*Header & navbar*/
 header {
-    background: linear-gradient(0deg, rgba(24,26,32,1), rgba(94,111,76,1));
+    background: linear-gradient(0deg, rgba(24,26,32,1), rgb(112, 112, 80));
     /* overflow: hidden; */ /*For some reason there is whitespace without this line*/
 }
 
@@ -238,8 +238,11 @@ main {
     background: none !important;
 }
 
+/*Footer*/
+footer {
+    box-shadow: 0 2px 20px 10px rgba(0, 0, 0, 0.5);
+}
 
-/* <li class="select2-results__option select2-results__option--selectable select2-results__option--selected select2-results__option--highlighted" id="select2-type-dropdown-result-31ia-فیلم" role="option" data-select2-id="select2-data-select2-type-dropdown-result-31ia-فیلم" aria-selected="true"> فیلم </li> */
 /*Media Queries*/
 @media (max-width: 991.98px) { 
     .horizontal-scrollable {
