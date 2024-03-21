@@ -12115,6 +12115,23 @@ main {
 }
 
 /*The arrow icon*/
+.select2-selection__arrow b {
+  background-image: url(images/expand-arrow-white.png) !important;
+  background-color: transparent;
+  background-size: contain;
+  border: none !important;
+  height: 15px !important;
+  width: 15px !important;
+  top: 0.5em !important;
+  left: 1em !important;
+  transition: transform 0.4s ease-in-out;
+}
+
+/*When the label is hovered, rotate the arrow*/
+.select2:hover .select2-selection__arrow b {
+  transform: rotate(180deg);
+}
+
 /*The menu that opens when you click on the label*/
 .select2-dropdown {
   width: 175px !important;
