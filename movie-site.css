@@ -12090,6 +12090,20 @@ main {
   background: rgb(24, 26, 32);
 }
 
+.select2-dropdown {
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.select2-results__option--highlighted {
+  color: #F6CA18 !important;
+  background: none !important;
+}
+
+#type-dropdown {
+  width: 100px;
+}
+
 /*Media Queries*/
 @media (max-width: 991.98px) {
   .horizontal-scrollable {
