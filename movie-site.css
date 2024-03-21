@@ -12112,6 +12112,10 @@ main {
   background: rgb(24, 26, 32);
 }
 
+.filter-dropdown {
+  font-size: 20px;
+}
+
 /*Select2 dropdowns...*/
 .select2 {
   width: 125px !important;
@@ -12119,7 +12123,7 @@ main {
 
 /*The main label*/
 .select2-selection {
-  padding-right: 0.5em;
+  padding: 1em 0.5em 1em 0;
   border-radius: 1em !important;
   background-color: #292F39 !important;
   border: none !important;
@@ -12129,6 +12133,8 @@ main {
 /*The text in the label*/
 .select2-selection__rendered {
   color: #D0CFCE !important;
+  position: absolute;
+  bottom: 15%;
 }
 
 /*The arrow icon*/
@@ -12139,7 +12145,7 @@ main {
   border: none !important;
   height: 15px !important;
   width: 15px !important;
-  top: 0.5em !important;
+  top: 60% !important;
   left: 1em !important;
   transition: transform 0.4s ease-in-out;
   /*The white color*/
