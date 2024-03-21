@@ -1,2 +1,2 @@
 # movie-site
- A movie download site template with Bootstrat 5.
+ A movie download site template made using Bootstrap 5.
