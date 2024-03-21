@@ -68,7 +68,7 @@ a {
 /*Header & navbar*/
 header {
     background: linear-gradient(0deg, rgba(24,26,32,1), rgba(94,111,76,1));
-    overflow: hidden; /*For some reason there is whitespace without this line*/
+    /* overflow: hidden; */ /*For some reason there is whitespace without this line*/
 }
 
 #top-navbar {

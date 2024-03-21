@@ -12018,7 +12018,7 @@ a {
 /*Header & navbar*/
 header {
   background: linear-gradient(0deg, rgb(24, 26, 32), rgb(94, 111, 76));
-  overflow: hidden; /*For some reason there is whitespace without this line*/
+  /* overflow: hidden; */ /*For some reason there is whitespace without this line*/
 }
 
 #top-navbar {
